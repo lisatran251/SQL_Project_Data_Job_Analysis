@@ -1,10 +1,9 @@
+-- Find top10 high-paying jobs 
 SELECT 
     job_title_short,
     job_posted_date,
     salary_year_avg
-FROM (
-/* Logic: salary_year_avg sorted in desc order -> rank 1st of ea. job title to represent
-*/
+FROM ( -- Logic: salary_year_avg sorted in desc order -> rank 1st of ea. job title to represent
     SELECT 
         job_title_short,
         job_posted_date,
