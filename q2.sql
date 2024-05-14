@@ -2,7 +2,6 @@
 SELECT
     skills_dim.skills,
     COUNT(*) AS frq
-
 FROM 
     job_postings_fact
 JOIN 
@@ -10,7 +9,7 @@ JOIN
 -- Now skills_job_dim have both job_title and job id -> join for skills 
 JOIN 
     skills_dim ON skills_dim.skill_id=skills_job_dim.skill_id
-WHERE
+WHERE -- 2nd in execution order
     job_postings_fact.job_title_short = 'Data Scientist'
     -- or ILIKE '%Data Scientist%' for case sensitive
 GROUP BY
