@@ -161,4 +161,4 @@ _Table of the top 10 companies that offer work from home benefits_
 ## What are the average salaries offered by the top 10 highest-paying companies for the 'Data Analyst' position?
 This query retrieves the average salaries for the 'Data Analyst' position offered by the top 10 highest-paying companies. It calculates the average annual salary based on existing data and ranks the companies in descending order based on these averages. The analysis includes only those records where the salary data is available, ensuring that the results reflect actual reported salaries.
 ![Average Yearly Salaries for Top 10 High-Paying Jobs in 2023](q5.png)
-_Bar graph visualizing the average salary for the top 10 highest-paying companies for the 'Data Analyst' position._
+_Bar graph visualizing the average salary for the top 10 highest-paying companies for the 'Data Analyst' position._. 
