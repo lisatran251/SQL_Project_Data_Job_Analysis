@@ -52,7 +52,7 @@ WHERE rn = 1
 ORDER BY salary_year_avg DESC
 LIMIT 10;
 ```
-![Average Yearly Salaries for Top 10 High-Paying Jobs in 2023](q1.png)
+![Average Yearly Salaries for Top 10 High-Paying Jobs in 2023](viz/q1.png)
 _Bar graph visualizing the salary for the top 10 salaries; ChatGPT generated this graph from the SQL queries results._
 
 As shown, the graph provides a clear comparison of the salaries across various job roles, with "Data Scientist" being the highest paid and "Cloud Engineer" at the lower end of the top 10 scale for this dataset. The salary range is varied from $280,000 to $960,000. 
@@ -160,7 +160,7 @@ _Table of the top 10 companies that offer work from home benefits_
 
 ## What are the average salaries offered by the top 10 highest-paying companies for the 'Data Analyst' position?
 This query retrieves the average salaries for the 'Data Analyst' position offered by the top 10 highest-paying companies. It calculates the average annual salary based on existing data and ranks the companies in descending order based on these averages. The analysis includes only those records where the salary data is available, ensuring that the results reflect actual reported salaries.
-![Average Yearly Salaries for Top 10 High-Paying Jobs in 2023](q5.png)
+![Average Yearly Salaries for Top 10 High-Paying Jobs in 2023](viz/q5.png)
 _Bar graph visualizing the average salary for the top 10 highest-paying companies for the 'Data Analyst' position._. 
 
 # Conclusion
